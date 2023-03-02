@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                sh 'docker built -t haikal/node-test:latest .'
+                sh 'docker build -t haikal/node-test:latest .'
             }
         }
     }
